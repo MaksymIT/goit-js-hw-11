@@ -1,39 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/goit-js-hw-11/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vanilla App Template</title>
-    <script type="module" crossorigin src="/goit-js-hw-11/assets/vendor-5ObWk2rO.js"></script>
-    <script type="module" crossorigin src="/goit-js-hw-11/assets/main-khl9R4ti.js"></script>
-    <link rel="stylesheet" crossorigin href="/goit-js-hw-11/assets/vendor-DumFYO8Z.css">
-    <link rel="stylesheet" crossorigin href="/goit-js-hw-11/assets/styles-NBIg3Hew.css">
-  </head>
-  <body>
-    <header class="header">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Page 2</title>
+  <script type="module" crossorigin src="/goit-js-hw-11/index.js"></script>
+  <link rel="modulepreload" crossorigin href="/goit-js-hw-11/assets/vendor-5ObWk2rO.js">
+  <link rel="stylesheet" crossorigin href="/goit-js-hw-11/assets/vendor-DumFYO8Z.css">
+  <link rel="stylesheet" crossorigin href="/goit-js-hw-11/assets/styles-NBIg3Hew.css">
+</head>
+
+<body>
+
+  <main>
+    <div class="container">
+      <h1 class="main-title">
+        <span class="main-title-gradient"></span> 
+      </h1>
+      <a class="back-link" href="./index.html">Go back</a>
+
+    </div>
+  </main>
+
+  <form class="feedback-form js-feedback-form search-container" autocomplete="off">
+    <label>
+      Searh
+      <input type="search" class="feedback-form-input" name="user_query" autofocus />
+    </label>
+    <button class="feedback-form-submit" type="submit">Submit</button>
+  </form>
+
   <div class="container">
-    <nav class="nav">
-      <a class="nav-logo" href="./index.html" aria-label="Site logo">
-        <svg class="nav-logo-icon" width="100" height="30">
-          <use href="/goit-js-hw-11/assets/sprite-E8vg0sBb.svg#logo"></use>
-        </svg>
-      </a>
-      <ul class="nav-list">
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-act}" href="./page-2.html">Page 2</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-curr}" href="./page-3.html">Page 3</a>
-        </li>
-      </ul>
-    </nav>
+    <ul class="galerry-js"></ul>
   </div>
-</header>
 
+  <span class="loader hidden"></span>
+</body>
 
-    <main>
-      
-    </main>
-  </body>
 </html>
